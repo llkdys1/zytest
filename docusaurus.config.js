@@ -133,6 +133,12 @@ const config = {
             {
                 type: 'docSidebar',
                 sidebarId: 'tutorialSidebar',
+                docsPluginId: 'yesy',
+                label: '测试',
+            },
+            {
+                type: 'docSidebar',
+                sidebarId: 'tutorialSidebar',
                 docsPluginId: 'tech',
                 label: 'AI相关',
             },
@@ -142,9 +148,11 @@ const config = {
                 docsPluginId: 'game',
                 label: '游戏',
             },
+
+
           // {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/llkdys1/',
             label: 'GitHub',
             position: 'right',
           },
